@@ -1,0 +1,26 @@
+*{box-sizing: content-box;margin: 0;padding: 0;}
+body{background-color: grey; padding: 0;margin: 0;
+    -webkit-touch-callout: none;/*impide que se seleccione el texto o los botones al hacer doble click en cualquier parte*/
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#tablero{float:right;width: 90vw;height: 90vh; display: block; text-align: center;}
+#control{width: 8vw;height: 90vh;float: left;max-height: 90vh;}
+.ficha{background-color: pink; height: 20px; width: 20px;border: solid white thin;}
+.fila{width: 90vw; height:30px;background-color:yellow;display: flex;flex-direction: row;}
+canvas {border:1px solid grey; background-color: #f1f1f1;margin-right: auto;margin-left: auto;}
+nav{width: 100vw;height:10%;padding: 20px;background-color: lightblue;}
+#config{width: 100vw; height: 100vh; display:flex;background-color: grey;position: fixed;top: 0;left: 0;align-items: center;justify-content: center;}
+#logo{background-image: url('img/logo.png');background-repeat: no-repeat;background-position: center;background-size: contain; width: 30vw;height: 30vh;}
+#opciones{text-align: center; height: 50vh;width:30vw;display:flex;flex-direction: column;flex-wrap: wrap;justify-content: space-around;justify-content: ce}
+.opcion{width: 50%;align-self: center;display: none;}
+select{width: 50%;align-self: center;}
+.opcionSel{background-color: #878f99;}
+#btnStart{display: none}
+#control button img{max-width:100%;}
+#cartelGanador{background-color: hsla(0, 0%, 0%,0.8);top:0;left:0;position: fixed;width: 100vw;height: 100vh; display:none;background-size: cover; background-image: url('img/lograste.png'); background-repeat: no-repeat;background-position: center;}
+#ppal{display: flex;}
+canvas{border: solid thick white;}
